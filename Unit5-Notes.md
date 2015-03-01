@@ -80,7 +80,53 @@ diagrams are especially important in modeling the function of a system as
 they highlight the flow of control among objects.
 
 
-2. Describe the working of a state diagram.
-3. Explain the different states of activity diagram.
+###2. Describe the working of a state diagram.
+**State diagrams**
+A state diagram shows the dynamic behavior of a system. The diagram
+shows the various states that an object can have and the transitions that
+occur between the states.
+The state object is a snapshot of an instance of the object. A state may have
+an activity describing the function it performs and is represented by state
+symbols while transitions are represented by arrows connecting the state
+symbols. A special state, the start state, is a small darkened circle. An end
+state is a hollow circle enclosing a smaller colored circle (Refer figure 5.13).
+It shows the initial idle state and the transition states where the action starts
+and where it ends.
+
+The “Order”object has four states: “Create”, “Check Credit”, “Filled”, and “Shipped”. The
+transitions for the “Order” object comprise of “View”, “Submit”, “Reject”,
+“Fill”, and “Ship”. A transition may have guard conditions. For an example,
+“Bad Credit” is the guard condition for the reject transition. To continue the
+transaction the guard conditions must be met. There could be one or more
+actions in response to a transition. “Do fill” is the action for the “Fill”
+transition. In addition, we can specify the entry and exit actions, 
+
+####3. Explain the different states of activity diagram.
+**Activity diagrams**
+Activity diagrams are special cases of state chart diagrams. An activity
+diagram has actions as states. It can be considered as some kind of
+elaborate flow diagram and has therefore some graphical structures for
+handling conditions like a diamond shaped box for conditionals and plates
+for merging control flow. Activity diagrams may contain the following states.
+Activity states – These represent the performance of a step within the
+workflow.
+
+**Transitions** – They show the sequence of activity states. They are shown
+by a solid arrow. A transition may branch into two or more mutually
+exclusive transitions. Guard expressions label the transitions coming out of
+a branch. A branch and its subsequent merge marking the end of the branch
+appear in the diagram as hollow diamonds.
+
+**Decisions** – Decisions are made by a set of guard conditions. These guard
+conditions control the flow of transition of a set of alternate transitions once
+the activity has been completed. They are shown by a hollow diamond
+
+**Synchronization bars** – They are represented using a thick horizontal or
+vertical line and show parallel subflows. They also can show parallel
+threads. These bars are used to describe any intermediate step in a process
+in the activity diagram. This process forms a logical level by itself using the
+results of several different inputs. There are two types synchronization bars
+namely, horizontal and vertical synchronization bars.
+
 4. What are packages?
 5. Explain the mechanisms of UML extensibility.
