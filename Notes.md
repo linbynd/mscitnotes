@@ -125,7 +125,44 @@ does not find the method in this class then it searches all the superclasses
 until it finds the method or shows an error that the method is not found.
 
 
-What is encapsulation and abstraction?
+##3. What is encapsulation and abstraction?
+
+**Encapsulation**
+Definition: Encapsulation or information hiding is defined as the mechanism
+to hide all the methods and data inside the object so that only important data
+is accessible to the user.
+The word ‘encapsulation’ is used so that a user cannot see inside the
+‘capsule’, but can use the methods inside the object. We can say that
+encapsulation is the design goal of object oriented systems. We can use this
+technique to insulate the details of the internal objects from other objects.
+Using encapsulation we can avoid strong dependencies among the different
+components of programs. We can use encapsulation in languages other
+than object oriented languages, but the ability of object oriented languages
+to group the data structures and behaviors as a single entity makes
+encapsulation powerful.
+For the example of encapsulation, consider the loan approval process in a
+bank. If we want a loan to be approved, we have to fill the form and wait for
+the approval. The steps of loan approval process are carried out by the loan
+department of the bank. Here these steps are hidden or encapsulated from
+us.
+**Abstraction**
+Definition: Abstraction is defined as the mechanism that removes or hides
+some characteristics of an object and shows only the relevant data to the
+user.
+Abstraction may seem same as encapsulation but in encapsulation we know
+only the inputs and the output of the process. The implementation of the
+process is fully hidden from us. In abstraction we refer the essential
+properties of an object which differentiates it from other types of object.
+Abstraction is used to reduce complexity and enhance efficiency of the
+object oriented system.
+
+While hiding or removing aspects of the object we have be careful that all
+the relevant aspects of an object is accessible to the user and only the
+extraneous ones are left out. If we are using a truck, the information about
+the truck we need to know is the use of the steering wheel, brake, gas pedal
+and the way of transmission. We do not have to know the mechanism of
+locomotion of the truck. Here we can abstract this mechanism.
+
 Explain inheritance with an example.
 What is association and aggregation.
 
