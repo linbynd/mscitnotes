@@ -164,11 +164,84 @@ and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
 ##4.Explain inheritance with an example.
-vinit
-What is association and aggregation.
-1. edited for testing git.
+** Inheritance **
+*Definition*: Inheritance is defined as the property of an object oriented
+system, where one class shares the structure or behavior of one or more
+other classes. It allows us to build new objects from the existing ones.
+We can view inheritance as a relationship between a parent class and the
+sub classes. To study the use of inheritance we must know the general
+class hierarchy. In object oriented systems, classes are arranged as sub
+and super classes. We use different properties and behaviors of these
+classes to group them as a subclass or a superclass. The generic classes
+are grouped at the top as the superclasses. More specific classes are
+arranged under these superclasses as subclasses. A subclass inherits all
+the properties and behaviors of its superclass. We can add new properties
+in a subclass. A class can act as a subclass to some class and a superclass
+to some other class. Let us consider an example as shown in figure 2.5.
+*Example for Class Hierarchy*
+
+Here the class ‘Car’ is a subclass of the class ‘vehicles’ and a superclass of
+the class ‘Sports car’. The class ‘Car’ is generic compared to its subclasses.
+To make the class more specific we define the subclasses - ‘Sports car’ and
+’limousines’ .The ‘Car’ class defines the behavior and properties of cars in
+general. A ‘Sports car’ has all the properties of the ‘Car’ cWhat is association and aggregation?lass along with its
+own specific properties. If we want a ‘Sports car’ object then we have to
+write only one class, ’Sports car’.
+
+Similarly the class ‘Bikes’ is a subclass of the ‘Vehicles’ class. It has all the
+properties and behaviors of both vehicles and bikes. The ‘Bikes’ class is
+inherited by two other classes,’Motor Cycles’ and ‘Bicycles’. The ‘Bicycles’
+class in turn has two other subclasses, ‘Terrain Bike’ and ‘Mountain Bike’.
+Thus the class ‘Mountain Bike’ has the properties and behaviors of Bicycles,
+Bikes, Vehicles and its own properties.
+In object oriented programming, we can reduce the duplication of code by
+using this class hierarchy and inheritance. Consider that we have to make
+an object of the class ‘limousines’. Then we have to code the properties for
+limousines as well as the general properties of cars and vehicles.
+Inheritance helps us to inherit all the properties of vehicles and cars. We
+have to add the properties of limousines with these properties.
+The class ‘Car’ is an abstract class. Abstract classes do not have any
+instance but these are used to define some behaviors common to all of its
+subclasses. Superclass and subclass are also known as base class and
+derived class in object oriented programming.
+
+The main aim of inheritance is to reuse the behaviors and attributes of a
+class. In the figure 2.5, the ‘vehicles’ class is inherited by ‘bikes’ class and
+‘Car’ class. Another level down, the bikes class is inherited by the ‘bicycles’
+and ‘motorcycles’ class. Therefore, the behaviors of the class ‘bicycles’ has
+all the behaviors of the classes ‘bikes’ and ‘vehicles’.
+Let us see how we can share the behaviors of classes. Let us assume that
+all sports cars have same type of braking system. We can define a method
+‘stop’ in the ‘Sports car’ class and not in ‘Ferrari’ class. If we have to stop a
+Ferrari we can easily inherit the ‘stop’ method from the ‘sports car’ class and
+use it on a Ferrari.
+
+Since the superclasses provide properties and behaviors for an object, if we
+change the superclass, then the properties and behaviors will also change.
+This is known as dynamic inheritance, where objects can change their
+behaviors from time to time. It allows us to define object behavior at run
+time. In object oriented programming, we can define variables to declare
+and define the objects of a class. This helps us to program the class
+hierarchy easily.
+
+Multiple-inheritance – Sometimes a class inherits the properties and
+behaviors from more than one class. This is known as multiple-inheritance.
+We can have a clear idea about this type of inheritance from the example
+given in the
+
+Here the class ‘Tour cycle’ inherits properties and behaviors of both ‘Terrain
+Bike’ and ‘Mountain Bike’ objects. Apart from these properties it can have its
+own unique properties. There is one drawback for multiple-inheritance. If
+several superclasses have same methods in them, then there is a problem
+of deciding which method to use. The only solution to this problem is to
+choose the appropriate method from the appropriate class. More
+maintenance is required when a subclass inherits from many superclasses.
+The advantages of multiple-inheritance are:
+
+-  It is powerful
+- It can be used to create real world applications
 
 
-
+##5. What is association and aggregation?
 
 
