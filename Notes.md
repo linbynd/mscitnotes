@@ -164,6 +164,7 @@ and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
 ##4.Explain inheritance with an example.
+
 ** Inheritance **
 *Definition*: Inheritance is defined as the property of an object oriented
 system, where one class shares the structure or behavior of one or more
@@ -243,5 +244,14 @@ The advantages of multiple-inheritance are:
 
 
 ##5. What is association and aggregation?
+=======
+
+
+
+
+
+
+
+
 
 
