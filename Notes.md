@@ -164,6 +164,7 @@ and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
 ##4.Explain inheritance with an example.
+vinit
 What is association and aggregation.
 2 edited for testing git.
 
