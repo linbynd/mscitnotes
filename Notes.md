@@ -167,9 +167,3 @@ locomotion of the truck. Here we can abstract this mechanism.
 vinit
 What is association and aggregation.
 2 edited for testing git.
-
-
-
-
-
-
