@@ -68,7 +68,8 @@ We develop applications using a layered architecture also. Layered architecture 
 
 
 #Unit. 2 
-##1. What are Objects, attributes and classes?
+
+###1. What are Objects, attributes and classes?
 **Objects**— An object is a real world entity, comprising of data and methods to manipulate the data. 
 We can have many objects nested inside one object. 
 We are aware of the meaning of an object, but we have to describe the exact use of an object in software development. Every real time entity can be called as an object. For example, pie charts, tables, printers, words, numbers etc. There are mainly two points to keep in mind while selecting an object. 
@@ -163,7 +164,126 @@ the truck we need to know is the use of the steering wheel, brake, gas pedal
 and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
-##4.Explain inheritance with an example.
-vinit
+##4.Explain inheritance with an example
+
 What is association and aggregation.
-2 edited for testing git.
+
+** Inheritance **
+*Definition*: Inheritance is defined as the property of an object oriented
+system, where one class shares the structure or behavior of one or more
+other classes. It allows us to build new objects from the existing ones.
+We can view inheritance as a relationship between a parent class and the
+sub classes. To study the use of inheritance we must know the general
+class hierarchy. In object oriented systems, classes are arranged as sub
+and super classes. We use different properties and behaviors of these
+classes to group them as a subclass or a superclass. The generic classes
+are grouped at the top as the superclasses. More specific classes are
+arranged under these superclasses as subclasses. A subclass inherits all
+the properties and behaviors of its superclass. We can add new properties
+in a subclass. A class can act as a subclass to some class and a superclass
+to some other class. Let us consider an example as shown in figure 2.5.
+*Example for Class Hierarchy*
+
+Here the class ‘Car’ is a subclass of the class ‘vehicles’ and a superclass of
+the class ‘Sports car’. The class ‘Car’ is generic compared to its subclasses.
+To make the class more specific we define the subclasses - ‘Sports car’ and
+’limousines’ .The ‘Car’ class defines the behavior and properties of cars in
+general. A ‘Sports car’ has all the properties of the ‘Car’ cWhat is association and aggregation?lass along with its
+own specific properties. If we want a ‘Sports car’ object then we have to
+write only one class, ’Sports car’.
+
+Similarly the class ‘Bikes’ is a subclass of the ‘Vehicles’ class. It has all the
+properties and behaviors of both vehicles and bikes. The ‘Bikes’ class is
+inherited by two other classes,’Motor Cycles’ and ‘Bicycles’. The ‘Bicycles’
+class in turn has two other subclasses, ‘Terrain Bike’ and ‘Mountain Bike’.
+Thus the class ‘Mountain Bike’ has the properties and behaviors of Bicycles,
+Bikes, Vehicles and its own properties.
+In object oriented programming, we can reduce the duplication of code by
+using this class hierarchy and inheritance. Consider that we have to make
+an object of the class ‘limousines’. Then we have to code the properties for
+limousines as well as the general properties of cars and vehicles.
+Inheritance helps us to inherit all the properties of vehicles and cars. We
+have to add the properties of limousines with these properties.
+The class ‘Car’ is an abstract class. Abstract classes do not have any
+instance but these are used to define some behaviors common to all of its
+subclasses. Superclass and subclass are also known as base class and
+derived class in object oriented programming.
+
+The main aim of inheritance is to reuse the behaviors and attributes of a
+class. In the figure 2.5, the ‘vehicles’ class is inherited by ‘bikes’ class and
+‘Car’ class. Another level down, the bikes class is inherited by the ‘bicycles’
+and ‘motorcycles’ class. Therefore, the behaviors of the class ‘bicycles’ has
+all the behaviors of the classes ‘bikes’ and ‘vehicles’.
+Let us see how we can share the behaviors of classes. Let us assume that
+all sports cars have same type of braking system. We can define a method
+‘stop’ in the ‘Sports car’ class and not in ‘Ferrari’ class. If we have to stop a
+Ferrari we can easily inherit the ‘stop’ method from the ‘sports car’ class and
+use it on a Ferrari.
+
+Since the superclasses provide properties and behaviors for an object, if we
+change the superclass, then the properties and behaviors will also change.
+This is known as dynamic inheritance, where objects can change their
+behaviors from time to time. It allows us to define object behavior at run
+time. In object oriented programming, we can define variables to declare
+and define the objects of a class. This helps us to program the class
+hierarchy easily.
+
+Multiple-inheritance – Sometimes a class inherits the properties and
+behaviors from more than one class. This is known as multiple-inheritance.
+We can have a clear idea about this type of inheritance from the example
+given in the
+
+Here the class ‘Tour cycle’ inherits properties and behaviors of both ‘Terrain
+Bike’ and ‘Mountain Bike’ objects. Apart from these properties it can have its
+own unique properties. There is one drawback for multiple-inheritance. If
+several superclasses have same methods in them, then there is a problem
+of deciding which method to use. The only solution to this problem is to
+choose the appropriate method from the appropriate class. More
+maintenance is required when a subclass inherits from many superclasses.
+The advantages of multiple-inheritance are:
+
+-  It is powerful
+- It can be used to create real world applications
+
+
+##5. What is association and aggregation?
+**Association and Aggregation**
+Association is defined as the relationship between objects and classes.
+Consider the phrase ‘a man can drive a bus’. This is an association.
+Aggregation is a more specific version of association through which we can
+claim ownership of other classes easily.
+We can traverse associations in both the directions as they are bidirectional.
+The forward direction is the direction indicated by the name. The opposite
+direction is the inverse direction. In the phrase given above, the ‘can drive’
+connects the man and the bus. This is a forward direction. The inverse
+direction of ‘can drive’ is ‘driven by’. Figure 2.7 shows the association
+between the bus and the man. It shows the two way access of the
+relationship.
+
+
+**Consumer – producer association**
+Consumer – producer association is a special type of association which is
+also known as client – server association or a use relationship. We can view
+this association as a one way relationship. The object that requests the
+service is known as the client or consumer and the object that receives the
+request and acts upon it is known as the server or the producer. Consider
+that we have to solve a mathematical operation using a calculator. The
+operation to be solved is the client and the calculator which solves it is the
+server. 
+
+**Aggregation and object containment**
+We can describe aggregation as a ‘whole-part’ relationship between two
+classes. In an aggregation, we can refer to other classes easily and claim
+their ownership. Each class referenced is considered as a part of the
+aggregation.
+Objects usually consist of one or more other objects in it. For example, an
+object named ‘book’ has an object named ’page’ inside it. The ‘page’ object
+in turn contains a ‘sentence’ object in it. In such cases we have to break
+down one object into several smaller objects. Here we use aggregation to
+refer to each object using its unique identity. Using aggregation we can refer
+to an attribute like an object. There is a powerful form of aggregation known
+as composition. Let us consider the relationship between two classes
+‘questions’ and ‘options’. One question can have multiple options, but one
+option cannot belong to multiple questions. If we do not want the questions,
+then its corresponding options are also not needed. But the vice versa is not
+possible.
