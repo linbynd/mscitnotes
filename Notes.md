@@ -78,13 +78,58 @@ Definition: An attribute is defined as an entity that sets the properties of an 
 Now that we have seen the way to define an object using attributes, let us study the way to group these objects. Objects are grouped into a class. The class definition is given below. 
 Definition: A class is defined as a group of objects with the same structure and behavior. 
 
-How do object respond to messages?
+##2. How do object respond to messages?
+
+**Object’s response to messages**
+
+Let us see how an object responds to a message using their instances.
+Consider that a person named ‘Joe’ writes with two pens of same type but
+different colors say red and blue. Here ‘Joe’ is an instance of a class
+‘Person’ and the ‘red pen’ and ‘blue pen’ are instances of a class ‘Pen’.
+When an object of the class ‘Person’ has to interact with an object of the
+class ‘Pen’, a message is sent. The person class can send a write message
+to the pen class to use the pen. It can use a color message to identify and
+use the different colored pens. These messages send to the objects have
+three parts. They are:
+
+- Operation requested
+- Inputs for the problem given as parameters in the message
+- Actual result or the output data obtained
+
+**Response to Messages**
+Here the object of the class ‘Person’ sends a write message to one object of
+the class ‘Pen’. If the object of person class is ‘Joe’ and the object of the pen
+class is ‘blue pen’ then using the write message Joe can write using a blue
+pen. Similarly the object Joe sends a color message to the red pen object,
+and the color red is displayed.
+
+Messages are known as non specific functions. A function tells us how to do
+a task and a message tells us what to do in the task. These are not equal to
+sub-routines, as different objects respond to the same message in a
+different way. Every object uses the message according their
+requirement. The line object uses it to draw a line, the circle object uses it to
+draw a circle and the rectangle object uses it to draw a rectangle.
+In different programming languages methods are called differently. In a C
+program, we call a function by its name, while in a Basic program we call the
+sub-routine. In an object oriented program we call a method of an object by
+sending a message to the object. We have to clearly know the difference
+between a message and a method. If we want an object to draw a chart, we
+will send a message ‘draw’ to the object. This message is used not only to
+draw a chart, but also to draw other pictures and tables. We can call the
+method to draw a chart using a name ‘draw chart’. This method is used to
+draw only a chart. This shows the difference between a message and a
+method. In object oriented programming if we send a message to an object,
+it searches for the method with the same name as the message. If it finds
+the method then executes the method to solve the problem. If the object
+does not find the method in this class then it searches all the superclasses
+until it finds the method or shows an error that the method is not found.
+
 
 What is encapsulation and abstraction?
 Explain inheritance with an example.
 What is association and aggregation.
 
-       
+
 
 
 
