@@ -128,5 +128,77 @@ in the activity diagram. This process forms a logical level by itself using the
 results of several different inputs. There are two types synchronization bars
 namely, horizontal and vertical synchronization bars.
 
-4. What are packages?
-5. Explain the mechanisms of UML extensibility.
+####4. What are packages?
+**Model Management: Packages and Model organization**
+In the previous section we discussed about the implementation diagrams, in
+this section we will discuss the package diagrams.
+All UML model elements can be organized into packages. A package is
+nothing but a group of model elements. The entire system can be compared
+to a single high-level package with their respective sub packages or classes
+in it.
+
+A package can be represented as a folder (Refer figure 5.19), and is shown
+as a large rectangle with a tab on the upper left corner of the rectangle. It
+contains the name of the contents of the package.
+Packages of an Order Processing System
+Store, Ordering Process,
+Shipping and a fourth Business package which contains all the three
+packages. The dashed arrow shows model dependency. It indicates the
+dependency of the element to which it points to. In the above example,
+Ordering Process is dependent on the Store, and Shipping is dependent on
+the Ordering Process.
+
+
+####5. Explain the mechanisms of UML extensibility.
+**UML Extensibility**
+The extensibility mechanisms allows you to
+customize and extend the UML by adding new building blocks, creating new
+properties, and specifying new semantics in order to make the language
+suitable for your specific problem domain. There are two common
+extensibility mechanisms that can be defined in the UML - stereotypes and
+constraints.
+
+**Stereotypes**
+
+We can use stereotypes to expand the vocabulary of the UML and create
+new model elements from existing ones. But we can only use the specific
+properties which are suitable for our problem domain. Stereotypes are used
+for classifying or marking the UML building blocks in order to introduce new
+building blocks that speak the language of our domain and that look like the
+primitive, or basic, model elements. They are represented textually by
+putting the text within guillemets 
+For example, when we model a network we may want to use symbols for
+representing routers and hubs. By using stereotype nodes we can make
+these things appear as simple building blocks. Stereotypes permit the
+introduction of new graphical symbols for providing visual indication to the
+models that address the vocabulary of our specific domain.
+Let’s take the example for the stereotype of an actor. The representation
+can be done in several ways. The actor can be
+shown as a class rectangle with the label <<actor>>, or a label and a stick
+figure, or just a stick figure with a label beneath it.
+
+**Constraints**
+
+Constraints are properties for specifying semantics or conditions that must
+hold true at all times for the elements of a model. They allow us to extend
+the semantics of a UML building block by adding new rules, or modifying
+existing ones.
+For example, when modeling hard real time systems it could be useful to
+provide the models with some additional information, such as time budgets
+and deadlines. We can easily show these timing requirements by using
+constraints.
+
+Automatic
+transmission
+Car
+{XOR}
+Manual
+transmission
+
+Graphically, a constraint is shown as a string enclosed by curly braces,
+which is placed near the associated element, or connected to the element
+by dependency relationships This notation can also be
+used to visualize a model element’s basic notation, in order to give the parts
+of an element’s specification that have no graphical cue. Some of the
+different types of constraints usually shown are ‘complete’, ‘disjoint’,
+‘implicit’, ‘new’, ‘transient’, ‘xor’ etc.
