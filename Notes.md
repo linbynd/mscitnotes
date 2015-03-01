@@ -68,7 +68,8 @@ We develop applications using a layered architecture also. Layered architecture 
 
 
 #Unit. 2 
-##1. What are Objects, attributes and classes?
+
+###1. What are Objects, attributes and classes?
 **Objects**— An object is a real world entity, comprising of data and methods to manipulate the data. 
 We can have many objects nested inside one object. 
 We are aware of the meaning of an object, but we have to describe the exact use of an object in software development. Every real time entity can be called as an object. For example, pie charts, tables, printers, words, numbers etc. There are mainly two points to keep in mind while selecting an object. 
@@ -164,7 +165,6 @@ and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
 ##4.Explain inheritance with an example.
-
 ** Inheritance **
 *Definition*: Inheritance is defined as the property of an object oriented
 system, where one class shares the structure or behavior of one or more
@@ -244,14 +244,43 @@ The advantages of multiple-inheritance are:
 
 
 ##5. What is association and aggregation?
-=======
+**Association and Aggregation**
+Association is defined as the relationship between objects and classes.
+Consider the phrase ‘a man can drive a bus’. This is an association.
+Aggregation is a more specific version of association through which we can
+claim ownership of other classes easily.
+We can traverse associations in both the directions as they are bidirectional.
+The forward direction is the direction indicated by the name. The opposite
+direction is the inverse direction. In the phrase given above, the ‘can drive’
+connects the man and the bus. This is a forward direction. The inverse
+direction of ‘can drive’ is ‘driven by’. Figure 2.7 shows the association
+between the bus and the man. It shows the two way access of the
+relationship.
 
 
+**Consumer – producer association**
+Consumer – producer association is a special type of association which is
+also known as client – server association or a use relationship. We can view
+this association as a one way relationship. The object that requests the
+service is known as the client or consumer and the object that receives the
+request and acts upon it is known as the server or the producer. Consider
+that we have to solve a mathematical operation using a calculator. The
+operation to be solved is the client and the calculator which solves it is the
+server. 
 
-
-
-
-
-
-
-
+**Aggregation and object containment**
+We can describe aggregation as a ‘whole-part’ relationship between two
+classes. In an aggregation, we can refer to other classes easily and claim
+their ownership. Each class referenced is considered as a part of the
+aggregation.
+Objects usually consist of one or more other objects in it. For example, an
+object named ‘book’ has an object named ’page’ inside it. The ‘page’ object
+in turn contains a ‘sentence’ object in it. In such cases we have to break
+down one object into several smaller objects. Here we use aggregation to
+refer to each object using its unique identity. Using aggregation we can refer
+to an attribute like an object. There is a powerful form of aggregation known
+as composition. Let us consider the relationship between two classes
+‘questions’ and ‘options’. One question can have multiple options, but one
+option cannot belong to multiple questions. If we do not want the questions,
+then its corresponding options are also not needed. But the vice versa is not
+possible.
