@@ -296,7 +296,7 @@ The new Academic Free License version 2.0 eliminates the confusion between acade
 
 Academic free licenses are available to certified educational institutions, which include vocational schools, colleges, and universities. Individual students and teaching staff can also avail these licenses. Academic licenses allow you to access fully-functional version of the software for non-commercial purposes such as education and research.
 
-4. Explain Public code archive
+4.Explain Public code archive
 Public code archive
 
 The philosophy behind Open Source Software is simple, and according to that everyone or the public should be able to access the software and use it in any way they want. Therefore, making the code accessible to the public is the most crucial factor of an open source project. Public code archive is one of the important infrastructures needed for an open source project which enables the users to access the software very easily.
