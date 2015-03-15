@@ -164,7 +164,10 @@ the truck we need to know is the use of the steering wheel, brake, gas pedal
 and the way of transmission. We do not have to know the mechanism of
 locomotion of the truck. Here we can abstract this mechanism.
 
-##4.Explain inheritance with an example.
+##4.Explain inheritance with an example
+
+What is association and aggregation.
+
 ** Inheritance **
 *Definition*: Inheritance is defined as the property of an object oriented
 system, where one class shares the structure or behavior of one or more
