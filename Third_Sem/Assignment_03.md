@@ -1,4 +1,4 @@
-(a) What is open source software? List the examples of open source
+1. (a) What is open source software? List the examples of open source
 systems.?
 
 Software is termed as an open source if you can download the software,
