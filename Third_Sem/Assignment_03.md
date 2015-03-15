@@ -253,3 +253,45 @@ For example, lets us consider an open source license that imposes a condition sa
 Note: Generational limitation depends on the conditions of the original license.
 
 We need to understand that the open source differs from the process of traditional copyright licensing since, it permits you to modify and distribute the original software as an open soruce software. When using the open source license you will experience substantial improvements over traditional proprietary commercial software licensing models. These improvements happen only when copyright holders make a user-modifiable source code available for programs which they share and permit the distribution and development of derivative works.
+
+3. (a) What is Academic Free License (AFL) ?Explain
+Introduction
+
+By now you must be familiar with the provisions of classic open source licenses such as the MIT, BSD, and Apache license. This unit familiarizes you with the concept of Academic Free License (AFL), its provisions and various applications.
+
+We know that many educational institutes use software for learning purposes for example C, C++, Java, and so on. The AFL was developed with the intention to help such educational institutions. This also helped individual students, and teachers to have access to software or source code developed by various well-known research organizations. You as a teacher can improve your teaching skills by knowing more about the software which is available under AFL, and as a student you can enhance the knowledge on particular software available as an open source under the terms of AFL.
+
+You can adopt AFLs for non-commercial purposes for example, in research organizations. Since, such organizations do not get any profit or compensation of any form for the software they develop. You can also make the software developed using the original AFL licensed software in your research organization available as open source software under the terms of AFL.
+
+The AFL software can be used by students or staff members within the educational institution and they do not have to pay for the software they use. That means you do not have to purchase the software since, it is open source. However, you are strictly prohibited from using this software for commercial purpose.
+
+verview of Academic Free Licenses
+
+Now let us begin our discussion with a brief introduction about the origin of AFL. The Academic Free License (AFL) is a free software license created by Lawrence E. Rosen, an attorney and computer specialist, in the year 2002. It has no limits or restrictions on model size. As we briefly discussed in the introduction the Academic free license is generally used by faculty, students or staff of an academic institution. It is also used for research or educational purposes.
+
+The Academic Free License applies to the original work, which is usually a source code and whose licensor has included a provision, referred as a notice, immediately following the copyright notice for the original work.
+
+Academic Free license grants the rights similar to that of BSD, MIT, and Apache licenses. However, it was developed to correct the expected problems with these licenses. As we have already discussed about BSD and MIT license in the previous unit, and you know that all these three licenses are open source free software,
+
+
+
+(b) List the features of the AFL
+The features of the AFL include:
+
+� It has a patent grant as well as copyright to the software.
+
+� It assures that no trademark rights are approved to the licensor's trademarks.
+
+� It provides an identification of the type of software being licensed by including a notice following the software's copyright notice.
+
+� It guarantees that the licensor owns the copyright.
+
+� It is copyrighted with the rights granted to copy and distribute the software without modification.
+
+� It guarantees that the licensor is distributing the software under a license.
+
+Most of the academic free licenses adopt the short and simple process of BSD model. It deals with the issues of patent, trademark, jurisdictions, and venue in the way similar to that of BSD philosophy of open source. The licensed AFL software can be used in combination with any other software, including proprietary or any derivative works.
+
+The new Academic Free License version 2.0 eliminates the confusion between academic-style licenses and reciprocal public licenses, which include the General Public License (GPL) and other Open Software Licenses (OSL). Reciprocal license states that if you modify the existing and original source code and later choose to distribute the changes in any form then that modified code should be licensed under the same license as the original source code.
+
+Academic free licenses are available to certified educational institutions, which include vocational schools, colleges, and universities. Individual students and teaching staff can also avail these licenses. Academic licenses allow you to access fully-functional version of the software for non-commercial purposes such as education and research.
