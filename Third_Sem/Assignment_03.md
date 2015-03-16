@@ -186,7 +186,7 @@ command.
 
 Open Source Software Licensing
 
-As we have learnt about contract and copyright in the prevoius section. We will now discuss about open source software licensing, in this section. Before proceeding further we will firstly define, �What is Open Source Software Licensing?�
+As we have learnt about contract and copyright in the prevoius section. We will now discuss about open source software licensing, in this section. Before proceeding further we will firstly define, What is Open Source Software Licensing?
 
 Open source software (OSS) licensing refers to licensing (granting permission to use intellectual property rights, such as trademarks, patents, or technology, under defined conditions) the software that is licensed to the users with the rights to execute the program for any reason, to transform the program, to reallocate duplications of either the original or transformed program (without royalties, etc).
 
@@ -198,17 +198,17 @@ As we have already discussed about OSS licensing, so we will now discuss about t
 
 Types of OSS Licenses
 
-� Copyleft licenses: Copyleft license refers to the license that tries to assure that the public keeps the rights to use, transform, and/or reallocate a creative work and all other works based on it, instead of restricting such rights. This license is used to keep up copyright conditions.
+ Copyleft licenses: Copyleft license refers to the license that tries to assure that the public keeps the rights to use, transform, and/or reallocate a creative work and all other works based on it, instead of restricting such rights. This license is used to keep up copyright conditions.
 
 copy left licenses is also divided into different categories, which are as follows:
 
-� Strong/weak copyleft license: �Strong copyleft� license refer to the license which is exercised to all inherited works. For example, GNU General Public License which consists of listing of all terms and conditions for duplicating, transforming, and allocating free software. �Weak copyleft� license refer to the license which is exercised only to the work that is copylefted, not to the remaining elements of the package. For example, Mozilla Public License acts as the controlling licensing for the Mozilla web browser and related software.
+ Strong/weak copyleft license: Strong copyleft license refer to the license which is exercised to all inherited works. For example, GNU General Public License which consists of listing of all terms and conditions for duplicating, transforming, and allocating free software. Weak copyleft license refer to the license which is exercised only to the work that is copylefted, not to the remaining elements of the package. For example, Mozilla Public License acts as the controlling licensing for the Mozilla web browser and related software.
 
-� Full/partial copyleft license: Full copyleft license remains when all parts of a work (except the license itself) can only be transformed, and allocated terms of work�s copyleft license. But, partial copyleft license permits allocation of some transformations under terms other than the copyleft license, or do not impose all the principles of copylefting on the work.
+ Full/partial copyleft license: Full copyleft license remains when all parts of a work (except the license itself) can only be transformed, and allocated terms of works copyleft license. But, partial copyleft license permits allocation of some transformations under terms other than the copyleft license, or do not impose all the principles of copylefting on the work.
 
-� Share-alike copyleft license: Share-alike imposes the necessity that any right that is permitted or granted relating to the original work must be permitted on absolutely the same or adaptable terms in any inherited work. For example, some permutations of Creative Commons Licenses.
+ Share-alike copyleft license: Share-alike imposes the necessity that any right that is permitted or granted relating to the original work must be permitted on absolutely the same or adaptable terms in any inherited work. For example, some permutations of Creative Commons Licenses.
 
-� Permissive license: A permissive license refers to a license which permits reuse on much broader terms, including transformation and release in non-open forms. Its purpose is to maximize the use of a piece of software. For example, MIT license.
+ Permissive license: A permissive license refers to a license which permits reuse on much broader terms, including transformation and release in non-open forms. Its purpose is to maximize the use of a piece of software. For example, MIT license.
 
 Most popular Open Source Software (OSS) licenses are Apache license, Berkeley Software Distribution (BSD) license, GNU General Public License (GNU GPL), Massachusetts Institute of Technology (MIT) license, Mozilla Public License (MPL) and so on.
 
@@ -216,37 +216,37 @@ Most popular Open Source Software (OSS) licenses are Apache license, Berkeley So
 
 After discussing so much about OSS licensing, we will now discuss about OSS licensing strategies which are given below:
 
-� Expansion strategy: It is an open source demonstration of the �law of conservation of modularity� which says that a single layer of a software stack is "modular and agreeable," permitting adjacent software layers to be "expanded�.
+ Expansion strategy: It is an open source demonstration of the law of conservation of modularity which says that a single layer of a software stack is "modular and agreeable," permitting adjacent software layers to be "expanded.
 
-� Dual license strategy: In the dual license strategy, a software company provides either free use (it carries some specific conditions) of its software with some constraints, or for a free commercial allocation of rights and a bigger set of characteristics.
+ Dual license strategy: In the dual license strategy, a software company provides either free use (it carries some specific conditions) of its software with some constraints, or for a free commercial allocation of rights and a bigger set of characteristics.
 
-� Consulting strategy: As per this strategy, consulting and services are rising as compared to software licenses.
+ Consulting strategy: As per this strategy, consulting and services are rising as compared to software licenses.
 
-� Patronage strategy: This strategy may be used for transforming a specific layer of the software stack into a commodity, removing competitors that are extracting profit from that layer.
+ Patronage strategy: This strategy may be used for transforming a specific layer of the software stack into a commodity, removing competitors that are extracting profit from that layer.
 
-� Hosted strategy: According to this strategy, many software companies like Google, do not sell their software, instead permit you to use it or rent it.
+ Hosted strategy: According to this strategy, many software companies like Google, do not sell their software, instead permit you to use it or rent it.
 
-� Embedded strategy: This strategy states that there are many Operating Systems (OS), such as Linux, which are used in many consumer products.
+ Embedded strategy: This strategy states that there are many Operating Systems (OS), such as Linux, which are used in many consumer products.
 
 From the discussion, we can analyze that the publishers intensely protect the copyrighted work from unauthorized distribution of copies. In addition, they also protect the creation of derivative works based on the work. For example, in artistic works, the issues of unauthorized distribution of the original work are more common. The illegal derivative work irregularly result in lawsuits or other disputes. However, the price of artistic or aesthetic work depends on their original form of expression, which is non-dynamic.
 
 By comparison, software is both dynamic and functional. Each program contains code that is both dynamic and functional. In dynamic, software can perform those functions in a completely diverse circumstance. In functional, it shows that it does work. Thus, we can understand that each program which is created provides two distinct types of value. The two distinct types of values are:
 
-� Formal purpose as an application or database.
+ Formal purpose as an application or database.
 
-� Possible source of code for use in performing other functions.
+ Possible source of code for use in performing other functions.
 
-When you purchase a piece of software like Microsoft Excel, you get a physical copy of the software and the manual (if it is created). The right to use the software for its intended purpose is to use it as a spreadsheet program. When you open the plastic wrap on the box, then you are bound to the so-called �shrink-wrap license�. Under this:
+When you purchase a piece of software like Microsoft Excel, you get a physical copy of the software and the manual (if it is created). The right to use the software for its intended purpose is to use it as a spreadsheet program. When you open the plastic wrap on the box, then you are bound to the so-called shrink-wrap license. Under this:
 
-� You cannot reproduce the original work (beyond the single copy made for her own use).
+ You cannot reproduce the original work (beyond the single copy made for her own use).
 
-� You cannot create derivative works based on the original work.
+ You cannot create derivative works based on the original work.
 
-� You cannot authorize others to do the mentioned two things for you.
+ You cannot authorize others to do the mentioned two things for you.
 
 The exclusion of these three restrictions is the groundwork of open source licensing.
 
-We need to underatand that a customer of software licensed under an open source license is in an entirely different position. If you are an open soruce customer you can freely share copies of the original work because of the open distribution principle of the license. You can freely modify the original work and share those derivative works with other users, because of the open modification principle of the license. The only considerable restriction upon the customer�s exercise of these rights is, that an open source license is likely to impose the copies of the work that customer shares. It can be the original work or the derivative work and it must obey the law of the open soruce license.
+We need to underatand that a customer of software licensed under an open source license is in an entirely different position. If you are an open soruce customer you can freely share copies of the original work because of the open distribution principle of the license. You can freely modify the original work and share those derivative works with other users, because of the open modification principle of the license. The only considerable restriction upon the customers exercise of these rights is, that an open source license is likely to impose the copies of the work that customer shares. It can be the original work or the derivative work and it must obey the law of the open soruce license.
 
 For example, lets us consider an open source license that imposes a condition saying that you are supposed to share any derivative works of the original work. It also mentions that the act of sharing should also be on the same conditions under which you are allowed to the work under the original license. This suggests that other users who obtain copies of your modified works must themselves be able to redistribute the original work. They should also make derivative works from the original work. This is with subject only to the limitation that they allow others to do the same. This principle is called as generational limitation. This limitation may prevent an open source code from going closed. The limitation also requires that the users and code contributors stand for by the values of open source initiative.
 
@@ -278,17 +278,17 @@ Academic Free license grants the rights similar to that of BSD, MIT, and Apache 
 (b) List the features of the AFL
 The features of the AFL include:
 
-� It has a patent grant as well as copyright to the software.
+ It has a patent grant as well as copyright to the software.
 
-� It assures that no trademark rights are approved to the licensor's trademarks.
+ It assures that no trademark rights are approved to the licensor's trademarks.
 
-� It provides an identification of the type of software being licensed by including a notice following the software's copyright notice.
+ It provides an identification of the type of software being licensed by including a notice following the software's copyright notice.
 
-� It guarantees that the licensor owns the copyright.
+ It guarantees that the licensor owns the copyright.
 
-� It is copyrighted with the rights granted to copy and distribute the software without modification.
+ It is copyrighted with the rights granted to copy and distribute the software without modification.
 
-� It guarantees that the licensor is distributing the software under a license.
+ It guarantees that the licensor is distributing the software under a license.
 
 Most of the academic free licenses adopt the short and simple process of BSD model. It deals with the issues of patent, trademark, jurisdictions, and venue in the way similar to that of BSD philosophy of open source. The licensed AFL software can be used in combination with any other software, including proprietary or any derivative works.
 
