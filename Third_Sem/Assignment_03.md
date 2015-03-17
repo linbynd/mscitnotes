@@ -310,6 +310,38 @@ For example, Mozilla project uses Bonsai tool, which will let you perform querie
 
 5. What is mutual consent? Explain the two ways by which the parties can attack each other.
 
+As we know, contracts are nothing but agreements, where two parties agree upon some points which they will follow under a legal system. When we talk about intellectual property, like open source software, we make agreements about how to modify or distribute the software. Generally, these agreements are called as licenses and in the software industry you use the term license most commonly instead of contract. Usually, the open source licenses are less restrictive when compared to commercial software licenses and available in many international languages to help you understand the license more efficiently.
+
+You can view a license as a permission to use some individual�s or organization�s property. However, with respect to contract, a license is "an agreement in which one of the terms of the agreement is permission by the property holder to use the property". Therefore, in a contract license the owner of the property like a software developer promises not to sue you for using his software. However, you can use the software by paying some royalty in the form of money or mentioning the owners name on the label of the software. This usually depends upon the terms and conditions that the property owner mentions in the license.
+
+Some of the effects of contract licenses are:
+
+� It permits you to use someone else's intellectual property.
+
+� It enables intellectual property holders to enforce terms and conditions on the use of their property. For example, many software licenses have restrictions on where, how, and when software can be used.
+
+� It provides the intellectual property holders the right to sue the individual who violates the terms and conditions of the license.
+
+The contract between two or more persons is based on two fundamental assumptions:
+
+� Some mutual obligation created by the agreement which is known as consideration.
+
+� Mutual consent or a meeting of the minds, as the terms of the contract which is usually described as the offer and the acceptance.
+
+Once you accept the offer that involves the exchange of the considerations, then an enforceable contract is created which is of course subject to many exceptions.
+
+You can observe that most of the unrestrictive open source licenses impose few restrictions to make sure that the license is within a legal boundary. These restrictions also ensure that an enforceable license is developed. The copyright notice and the permission notice should be included in all the copies of the substantial portions of the software. This obligation is not a burden, it is real, and if you fail to abide by it, it constitutes a breach of contract. The licensor grants a real benefit that is the right to use the licensed software and you agree to those genuine restrictions that are expressed in the license. The question of mutual consent which can be attacked is more problematic. Generally, the mutual consent can be attacked only in unusual circumstances. In the typical formulation of a contract, the two parties to the contract should meet, negotiate, and reach final agreement which will be embodied in a formally signed document. Under these circumstances the approval of either of the parties can be attacked, basically in following two ways:
+
+1. One of the parties can argue that the consent was rushed by fraud that is the other party has deceived him. For example, the two parties may agree to a contract that gives for the sale of a document signed by Shahrukh Khan. The authenticity of the signature is important to the contract. If the buyer can prove that the signature was not signed by Shahrukh Khan and that it was forged and that the seller was aware of it, then the contract can become null and void by telling that.
+
+2. Mutual approval can be attacked on the grounds of incompetence. For example, legally a person cannot enter into a binding contract. And if such a person enters into a contract then it can be made void on the grounds that the person is incompetent to enter into a contract in the first place.
+
+These circumstances may appear in many different variations and also present difficulties in interpreting contracts and also decide disputes that may arise from them. These are relatively clear assaults on the mutual consent to a contract.
+
+You can view the terms of the license by clicking on the hyperlink that would go to a page displaying the terms of the license. This is known as �browsewrap� license which may create an enforceable contract where you are at least aware that the software is subject to license or to even look at it before accessing the licensed work. This kind of contract enforceability is subject to dispute and this may result in a contract that was enforced. �Clickwrap� license is another way of entering into contract, where it is likely to create an enforceable contract. In this variation you have to view the terms of the license and take some confirmatory action to agree to the terms such as clicking a button which says �Yes, I have read the license and I agree to the terms�. Some time you are asked to perform other action to ensure that you agree to the terms however, many feel this may or may not be sufficient to create an enforceable contract. You now know about the license and that it governs the use of the software and you also have the opportunity to review it before accessing the software. You can now use the code in your program on your personal computer. You can now use the program or distribute the program for profit. This shows that there is no need for you to take any permission for the actions that you perform using the software. The license is self enforced and you have entered the contract just by using the software and this is similar to signing a contract.
+
+
+
 6. Write a Note on Forking
 Forking
 
